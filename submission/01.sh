@@ -1,1 +1,1 @@
-bitcoin-cli -regtest getnetworkinfo
+bitcoin-cli --version
