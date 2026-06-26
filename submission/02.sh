@@ -1,1 +1,1 @@
-bitcoin-cli -regtest getblockchaininfo
+bitcoin-cli -regtest getblockchaininfo | jq -r '.chain'
